@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(225, 232, 240);
+    margin: 30px;
+}
+
+#title {
+    margin-bottom: 34px;
+}
+
+#input-tarea {
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid rgb(116, 116, 247);
+    width: 350px;
+}
+
+#agregar {
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    background-color: skyblue;
+    width: 160px;
+    font-weight: bold;
+    font-size: 16px;
+    color: darkblue;
+}
+
+.box {
+    width: 85%;
+    height: 100%;
+    min-height: 800px;
+    background-color: white;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.columna {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#pendiente-box {
+    width: 280px;
+    height: 80px;
+    border-radius: 20px;
+    background-color: lightsalmon;
+    font-size: 18px;
+    font-weight: bolder;
+    padding: 10px;
+    margin: 20px;
+}
+
+.sub {
+    margin-bottom: 35px;
+}
+
+#derecha {
+    height: 20px;
+    width: auto;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
