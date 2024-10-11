@@ -47,15 +47,30 @@ body {
     flex-direction: column;
 }
 
+.column {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 #pendiente-box {
     width: 280px;
-    height: 80px;
+    height: auto;
     border-radius: 20px;
     background-color: lightsalmon;
     font-size: 18px;
     font-weight: bolder;
     padding: 10px;
     margin: 20px;
+}
+
+#texto {
+    width: 280px;
+    word-wrap: break-word;
+    max-width: 100%;
+    
 }
 
 .sub {
@@ -67,4 +82,9 @@ body {
     width: auto;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
+}
+
+#izquierda {
+    height: 20px;
+    width: auto;
 }
